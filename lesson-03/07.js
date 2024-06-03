@@ -4,6 +4,7 @@ const numbers = [
     [111, 200, 333, 400, 555],
 ];
 
+
 for (let i = 0; i < numbers.length; i++) {
     numbers[i] = numbers[i].filter(number => number % 2 === 0);
 }
