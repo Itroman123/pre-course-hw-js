@@ -1,4 +1,4 @@
 let iAm = 'я';
 let krasavchik = "красавчик!";
-iAm = iAm.charAt(0).toUpperCase() + iAm.slice(1);
+iAm = iAm.charAt(0).toUpperCase();
 console.log(iAm + ' ' + krasavchik);
